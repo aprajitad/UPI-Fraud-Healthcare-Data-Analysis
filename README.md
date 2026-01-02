@@ -28,6 +28,7 @@ This project aims to detect and analyze such fraud patterns using data analysis 
 - **Power BI** – Interactive dashboards and reporting  
 
 ---
+
 ## 📊 Key Analysis Performed
 - Total number of fraudulent transactions
 - Fraud cases by hospital
@@ -35,6 +36,29 @@ This project aims to detect and analyze such fraud patterns using data analysis 
 - Monthly fraud trend analysis
 - Transaction failure and success patterns
 - UPI application-wise fraud comparison
+
+---
+
+## 🐍 Python Analysis
+- Loaded cleaned UPI healthcare dataset
+- Checked data types and missing values
+- Converted transaction dates for time-based analysis
+- Created visualizations:
+  - Fraud cases by hospital (bar chart)
+  - Fraud distribution by UPI app (pie chart)
+  - Monthly fraud trend (line chart)
+  - High-value failed transactions table
+- Exported results for Power BI usage
+  
+---
+
+## 🗄️ SQL Analysis
+- Total number of transactions and fraud cases
+- Fraud cases by hospital and city
+- High-value suspicious transactions
+- Failed vs successful transaction analysis
+- UPI app-wise fraud count
+- Identification of hospitals with repeated fraud cases
 
 ---
 
@@ -59,12 +83,4 @@ Aspiring Data Analyst
 ---
 
 
-
-
-
-
-
-
-
-
-## 📂 Project Structure
+## 📂 Project Str
