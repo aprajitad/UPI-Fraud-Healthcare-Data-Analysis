@@ -8,6 +8,14 @@
 **Dataset:** 8,000 UPI healthcare transaction records (2024–2025)
 **Dashboard:** Power BI (see `power_bi/UPI_Fraud_Healthcare_PowerBI.pbix`)
 
+---
+
+## 🖼️ Dashboard Preview
+
+![Dashboard Preview](dashboard_preview.png)
+
+---
+
 ## 📌 Business Problem
 
 Indian hospitals and clinics increasingly accept UPI payments, but fraud and payment failures create real financial and operational risk. This project answers three questions a healthcare finance team would actually ask:
@@ -64,7 +72,7 @@ Interactive report with fraud KPIs, monthly trend, fraud by hospital/city/UPI ap
 
 - **10.6%** of all transactions were flagged as fraudulent
 - Fraud is concentrated in **Fortis** and **Manipal** hospitals and in **Mumbai**-based transactions
-- Fraudulent transactions average roughly **1.3x** the value of legitimate ones
+- Fraudulent transactions average roughly **₹2,652**
 - **`transaction_status`** (failed vs. successful) is by far the strongest single predictor of fraud, both in the SQL breakdown and in the model's feature importance
 - Network and timeout issues account for the majority of transaction failures
 
@@ -142,6 +150,7 @@ UPI-Fraud-Healthcare-Data-Analysis/
 ├── power_bi/
 │   └── UPI_Fraud_Healthcare_PowerBI.pbix
 │
+├── dashboard_preview.png
 └── README.md
 ```
 
